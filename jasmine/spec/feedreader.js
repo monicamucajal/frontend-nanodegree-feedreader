@@ -113,7 +113,6 @@ $(function() {
         beforeEach(function (done) {
             loadFeed(0, function () {
                 firstFeed = $('.feed').html();
-                done();
                 //console.log(firstFeed);
                 loadFeed(1, function () {
                     secondFeed = $('.feed').html();
